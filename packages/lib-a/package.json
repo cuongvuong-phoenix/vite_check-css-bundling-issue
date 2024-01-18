@@ -8,6 +8,16 @@
   ],
   "main": "./dist/lib-a.js",
   "module": "./dist/lib-a.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lib-a.js",
+      "require": "./dist/lib-a.cjs"
+    },
+    "./css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
