@@ -6,12 +6,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/lib-a.js",
+  "main": "./dist/lib-a.umd.cjs",
   "module": "./dist/lib-a.js",
   "exports": {
     ".": {
       "import": "./dist/lib-a.js",
-      "require": "./dist/lib-a.cjs"
+      "require": "./dist/lib-a.umd.cjs"
     },
     "./css": {
       "import": "./dist/style.css",
