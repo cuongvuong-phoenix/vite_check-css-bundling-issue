@@ -8,16 +8,6 @@
   ],
   "main": "./dist/lib-a.umd.cjs",
   "module": "./dist/lib-a.js",
-  "exports": {
-    ".": {
-      "import": "./dist/lib-a.js",
-      "require": "./dist/lib-a.umd.cjs"
-    },
-    "./css": {
-      "import": "./dist/style.css",
-      "require": "./dist/style.css"
-    }
-  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
