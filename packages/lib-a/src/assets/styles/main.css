@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  @apply text-xs;
+}
+
+.something-from-a {
+  @apply bg-amber-600 font-bold italic text-lg;
+}

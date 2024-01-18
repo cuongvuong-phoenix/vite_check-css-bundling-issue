@@ -1,0 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.only-in-b {
+  @apply flex items-center justify-center text-xl rounded bg-gray-300;
+}
