@@ -3,6 +3,7 @@
   font-size: 2rem;
   line-height: 2.5rem;
 }
+/* (PRUNED) Preflight of `lib-a` */
 html,
 :host {
   line-height: 1.5;
@@ -25,6 +26,7 @@ pre {
   font-variation-settings: normal;
   font-size: 1em;
 }
+/* Styles of `lib-a` */
 body {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -37,9 +39,11 @@ body {
   font-weight: 700;
   font-style: italic;
 }
+/* Styles of `b` */
 .alert {
   border: 1px solid rgba(198, 83, 140, 0.88);
 }
+/* Preflight of `b` */
 *,
 :before,
 :after {
@@ -350,6 +354,7 @@ video {
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
 }
+/* Styles of Tailwind JIT */
 .text-center {
   text-align: center;
 }
@@ -379,6 +384,7 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.15s;
 }
+/* Custom styles after @import of Tailwind */
 .only-in-b {
   display: flex;
   align-items: center;
@@ -389,6 +395,7 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+/* Styles of Vue <style> tags */
 .read-the-docs[data-v-1d5be6d4] {
   color: #888;
 }
