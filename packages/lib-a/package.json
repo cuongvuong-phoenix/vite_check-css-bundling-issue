@@ -6,7 +6,7 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/lib-a.umd.cjs",
+  "main": "./dist/lib-a.js",
   "module": "./dist/lib-a.js",
   "scripts": {
     "dev": "vite",
